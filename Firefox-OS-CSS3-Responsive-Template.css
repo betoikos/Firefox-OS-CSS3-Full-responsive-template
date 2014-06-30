@@ -1,0 +1,104 @@
+/* ---------------------------------------------------------------------
+ * RESPONSIVE-DESIGN CSS3TEMPLATE FOR ALL FierfoxOS DEVICES, BY [Betoikos](http://betoikos.com)
+ * --------------------------------------------------------------------*/
+
+/* Here you put your general CSS3 wich all devices will share */
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------RESPONSIVE DESIGN BEGINS HERE------------*/
+
+/* ----------------------MOBIL-------------------------- */
+
+
+/* 320*480 devices */
+
+@media screen and (max-width:322px) and (orientation:portrait) {
+    /* Some awesome style here */
+}
+
+@media screen and (max-width:482px) and (orientation:landscape) {
+    /* Some awesome style here */
+}
+
+        
+/* 480*800 devices */
+
+@media screen and (min-width:323px) and (max-width:482px) and (orientation:portrait){
+    /* Some awesome style here */
+}
+
+@media screen and (min-width:483px) and (max-width:802px) and (orientation:landscape){
+    /* Some awesome style here */
+}
+
+
+/* 480*854 devices ALERT!!! HD Devices!!!*/
+
+@media screen and (min-width:323px) and (max-width:482px) and (min-resolution: 1.5dppx) and (orientation:portrait) {
+    /* Some awesome style here */
+}
+
+@media screen and (min-width:483px) and (max-width:856px) and (min-resolution: 1.5dppx) and (orientation:landscape) {
+    /* Some awesome style here */
+}
+
+
+/* 540*960 devices ALERT!!! HD Devices!!!*/
+
+@media screen and (min-width:483px) and (max-width:542px) and (min-resolution: 1.5dppx) and (orientation:portrait) {
+    /* Some awesome style here */
+}
+
+@media screen and (min-width:857px) and (max-width:962px) and (min-resolution: 1.5dppx) and (orientation:landscape) {
+    /* Some awesome style here */
+}
+
+/* 768*1280 devices*/
+
+@media screen and (min-width:543px) and (max-width:770px) and (min-resolution: 1.5dppx) and (orientation:portrait) {
+    /* Some awesome style here */
+}
+
+@media screen and (min-width:963px) and (max-width:1282px) and (min-resolution: 1.5dppx) and (orientation:landscape) {
+    /* Some awesome style here */
+}
+
+/*---------------------------TABLETS--------------------------*/
+
+/* 600*1024 devices*/
+
+@media screen and (min-width:483px) and (max-width:602px) and (orientation:portrait) {
+    /* Some awesome style here */
+}
+
+@media screen and (min-width:803px) and (max-width:1026px) and (orientation:landscape) {
+    /* Some awesome style here */
+}
+
+/* 800*1280 devices */
+
+@media screen and (min-width:603px) and (max-width:802px) and (orientation:portrait) {
+    /* Some awesome style here */
+}
+
+@media screen and (min-width:1027px) and (max-width:1282px) and (orientation:landscape) {
+    /* Some awesome style here */
+}
+
+
+/* ---------------------------------MOST DESKTOPS------------------------------------------- */
+/*    Since here you know what to do :)  */
+
+@media screen and (min-width:1283px) {
+    /* Some awesome style here */
+}
+
